@@ -5,10 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<style type="text/css">
+	.navbar{
+		background-color: transparent;
+		background: transparent;
+		border-color: transparent;
+	}
+	#navigation,.navbar .navbar-default{
+ 		background-image: url("img/sample-image.jpg");
+	}
+	</style>
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-static-top">
 		<div class="container">
+
 			<a href="#" class="navbar-brand">Lorem Ipsum</a>
 			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 				<span class="icon-bar"></span>
@@ -17,18 +28,7 @@
 			</button>
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="index.html">Lorem</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ipsum<b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">List1</a></li>
-							<li><a href="#">List2</a></li>
-							<li><a href="#">List3</a></li>
-						</ul>
-					</li>
-					<li><a href="#dolor" data-toggle="modal">Dolor</a></li>
-					<li><a href="test.html">Sit</a></li>
-					<li><a href="read.html">Amet</a></li>
+					<button type="button" class="btn btn-inverse btn-info-outline">Lorem</button>
 				</ul>
 			</div>
 		</div>
@@ -55,7 +55,7 @@
 			<div class="col-md-3">
 				<h3><a href="#">Dolor</a></h3>
 				<p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				<a href="#" class="btn btn-info">Read More</a>
+				<a href="#" class="btn btn-info-outline">Read More</a>
 			</div>
 			<div class="col-md-3">
 				<h3><a href="#">Sit</a></h3>
