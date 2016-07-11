@@ -11,6 +11,8 @@ html {
 }
 body {
   margin: 0;
+  background-image: image-url('img/sample-image.JPG');
+  @include 
 }
 article,
 aside,
