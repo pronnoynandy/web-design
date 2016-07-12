@@ -5,53 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<style type="text/css">
-		.opaque-navbar {
-		    background-color: rgba(0,0,0,0.2);
-		    height: 50px;
-		    border-bottom: 0px;
-		    transition: background-color .5s ease 0s;
-		}
-		.opaque-navbar.opaque{
-			background-color: black;
-			height: 50px;
-			transition: background-color .5s ease 0s;
-		}
-		ul.dropdown-menu {
-		    background-color: white;
-		}
-		@media (max-width: 992px) {
-			.opaque-navbar {
-			    background-color: black;
-			    height: 50px;
-			    transition: background-color .5s ease 0s;
-			}
-			.navHeaderCollapse{
-				background-color: black;
-			}
-		}
-	</style>
 </head>
 <body>
+
+
+
+
 	<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 		<div class="container">
-			<a href="index.html" class="navbar-brand">Lorem Ipsum</a>
-			<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<div class="collapse navbar-collapse navHeaderCollapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="test2.html">Ipsum</a></li>
-					<li><a href="#dolor" data-toggle="modal">Dolor</a></li>
-					<li><a href="#">Sit</a></li>
-					<li><a href="read.html">Amet</a></li>
-				</ul>
-			</div>
+		    <a href="index.html" class="navbar-brand">Lorem Ipsum</a>
+		    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+		    </button>
+		    <div class="collapse navbar-collapse navHeaderCollapse">
+		    	<ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">Home</a></li>
+			        <li><a href="page-one.html">Page1</a></li>
+			        <li><a href="page-two.html">Page2</a></li>
+			        <li><a href="page-three.html">Page3</a></li>
+			        <li><a href="page-four.html">Page4</a></li>
+		    	</ul>
+		    </div>
 		</div>
 	</div>
+
+
+
+
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<ol class="carousel-indicators">
 	 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -85,23 +67,59 @@
 		    <span class="sr-only">Next</span>
 		</a>
 	</div>
-	<div class="modal fade" id="dolor" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4>Lorem Ipsum</h4>
-				</div>
-				<div class="modal-body">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<p>
-				</div>
-				<div class="modal-footer">
-					<a class="btn btn-info" data-dismiss="modal">Close</a>
-				</div>
-			</div>
+
+
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Hello World!</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut laoreet risus. Donec nec augue sodales, condimentum libero ac, dictum ante.</p>
+			<a href="https://youtu.be/dQw4w9WgXcQ" class="btn btn-default btn-info pull-right">Watch Now!</a>
 		</div>
 	</div>
+
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<h3><a href="#">Recent Article</a></h3>
+				<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+				<a href="#" class="btn btn-info">Read More</a>
+			</div>
+			<div class="col-md-3">
+				<h3><a href="#">Recent Article</a></h3>
+				<p class="text-justify">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+				<a href="#" class="btn btn-info">Read More</a>
+			</div>
+			<div class="col-md-3">
+				<h3><a href="#">Recent Article</a></h3>
+				<p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+				<a href="#" class="btn btn-info">Read More</a>
+			</div>
+			<div class="col-md-3">
+				<h3><a href="#">Recent Article</a></h3>
+				<p class="text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+				<a href="#" class="btn btn-info">Read More</a>
+			</div>
+		</div>
+	</div>	
+
+
+
+
+	<div class="navbar navbar-default">
+		<div class="container">
+			<p class="navbar-text pull-left">Site Built by Pronnoy Nandy</p>
+		</div>
+	</div>
+
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/myScript.js"></script>
+	<script src="js/myScriptTwo.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
