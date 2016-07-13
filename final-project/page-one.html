@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Page1</title>
+	<title>Simply Cooking</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,7 +14,7 @@
 
 	<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 		<div class="container">
-		    <a href="index.html" class="navbar-brand">Lorem Ipsum</a>
+		    <a href="index.html" class="navbar-brand">Simply Cooking</a>
 		    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 			    <span class="icon-bar"></span>
 			    <span class="icon-bar"></span>
@@ -22,12 +23,65 @@
 		    <div class="collapse navbar-collapse navHeaderCollapse">
 		    	<ul class="nav navbar-nav navbar-right">
 			        <li><a href="index.html">Home</a></li>
-			        <li><a href="page-one.html">Page1</a></li>
-			        <li><a href="page-two.html">Page2</a></li>
-			        <li><a href="page-three.html">Page3</a></li>
-			        <li><a href="page-four.html">Page4</a></li>
+
+			        <li class="dropdown"> 
+			        	<a href="page-one.html" class="dropdown-toggle">Quick Cooks<b class="caret"></b></a>
+			        	<ul class="dropdown-menu">
+			        		<li><a href="breakfast-one.html">Breakfast</a></li>
+			        		<li><a href="lunch-one.html">Lunch</a></li>
+			        		<li><a href="dinner-one.html">Dinner</a></li>
+			        	</ul>
+			        </li>
+
+			        <li class="dropdown"> 
+			        	<a href="page-two.html" class="dropdown-toggle">Page2<b class="caret"></b></a>
+			        	<ul class="dropdown-menu">
+			        		<li><a href="breakfast-two.html">Breakfast</a></li>
+			        		<li><a href="lunch-two.html">Lunch</a></li>
+			        		<li><a href="dinner-two.html">Dinner</a></li>
+			        	</ul>
+			        </li>
+
+ 					<li class="dropdown"> 
+			        	<a href="page-three.html" class="dropdown-toggle">Page3<b class="caret"></b></a>
+			        	<ul class="dropdown-menu">
+			        		<li><a href="breakfast-three.html">Breakfast</a></li>
+			        		<li><a href="lunch-three.html">Lunch</a></li>
+			        		<li><a href="dinner-three.html">Dinner</a></li>
+			        	</ul>
+			        </li>
+
+			        <li class="dropdown"> 
+			        	<a href="page-four.html" class="dropdown-toggle">Page4<b class="caret"></b></a>
+			        	<ul class="dropdown-menu">
+			        		<li><a href="breakfast-four.html">Breakfast</a></li>
+			        		<li><a href="lunch-four.html">Lunch</a></li>
+			        		<li><a href="dinner-four.html">Dinner</a></li>
+			        	</ul>
+			        </li>
+
+			        <li><a href="#contact" data-toggle="modal">Contact Me</a></li>
 		    	</ul>
 		    </div>
+		</div>
+	</div>
+
+
+
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Contact Me</h4>
+				</div>
+				<div class="modal-body">
+					<a href="#">Follow Me</a>
+				</div>
+				<div class="modal-footer">
+				<a class="btn btn-info" data-dismiss="modal">Close</a>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -40,12 +94,11 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<div class="page-header">
-							<h3>Hello World!</h3>
+							<h3>Quick Cooks</h3>
 						</div>
-						<img class="featureImg" src="img/ice-cream1.jpg" width="100%">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit. In dictum, diam ut placerat aliquam, risus ligula sodales est, at iaculis velit eros vitae nisl. Vestibulum ut facilisis neque. Sed cursus purus feugiat tempor fringilla. Nunc ut sodales risus. Proin pulvinar elementum enim, vitae aliquet leo egestas ac. Vivamus id blandit augue. Fusce sed elit rhoncus, molestie lectus sed, condimentum tortor. Mauris tempus ante et eros pellentesque, et pretium risus commodo. Fusce viverra velit ante, nec vestibulum massa euismod ac. Nulla facilisi. Cras dictum ultricies volutpat. Mauris imperdiet lorem a elit fermentum vestibulum. Mauris convallis eu erat et euismod.</p>
+						<img class="featureImg" src="img/ice-cream1.JPG" width="100%">
 						<h4>A Heading</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit. In dictum, diam ut placerat aliquam, risus ligula sodales est, at iaculis velit eros vitae nisl. Vestibulum ut facilisis neque. Sed cursus purus feugiat tempor fringilla. Nunc ut sodales risus. Proin pulvinar elementum enim, vitae aliquet leo egestas ac. Vivamus id blandit augue. Fusce sed elit rhoncus, molestie lectus sed, condimentum tortor. Mauris tempus ante et eros pellentesque, et pretium risus commodo. Fusce viverra velit ante, nec vestibulum massa euismod ac. Nulla facilisi. Cras dictum ultricies volutpat. Mauris imperdiet lorem a elit fermentum vestibulum. Mauris convallis eu erat et euismod.</p>
+						<p>For when </p>
 					</div>
 				</div>
 			</div>
@@ -80,6 +133,10 @@
 			<p class="navbar-text pull-left">Site Built by Pronnoy Nandy</p>
 		</div>
 	</div>
+
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/myScript.js"></script>
 	<script src="js/bootstrap.min.js"></script>
