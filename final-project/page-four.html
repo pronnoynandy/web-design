@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -12,6 +13,7 @@
 
 
 
+	
 	<div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
 		<div class="container">
 		    <a href="index.html" class="navbar-brand">Simply Cooking</a>
@@ -34,7 +36,7 @@
 			        </li>
 
 			        <li class="dropdown"> 
-			        	<a href="page-two.html" class="dropdown-toggle">Page2<b class="caret"></b></a>
+			        	<a href="page-two.html" class="dropdown-toggle">Cook at Leisure<b class="caret"></b></a>
 			        	<ul class="dropdown-menu">
 			        		<li><a href="breakfast-two.html">Breakfast</a></li>
 			        		<li><a href="lunch-two.html">Lunch</a></li>
@@ -43,7 +45,7 @@
 			        </li>
 
  					<li class="dropdown"> 
-			        	<a href="page-three.html" class="dropdown-toggle">Page3<b class="caret"></b></a>
+			        	<a href="page-three.html" class="dropdown-toggle">Weekend Cooking<b class="caret"></b></a>
 			        	<ul class="dropdown-menu">
 			        		<li><a href="breakfast-three.html">Breakfast</a></li>
 			        		<li><a href="lunch-three.html">Lunch</a></li>
@@ -52,7 +54,7 @@
 			        </li>
 
 			        <li class="dropdown"> 
-			        	<a href="page-four.html" class="dropdown-toggle">Page4<b class="caret"></b></a>
+			        	<a href="page-four.html" class="dropdown-toggle">Gallery<b class="caret"></b></a>
 			        	<ul class="dropdown-menu">
 			        		<li><a href="breakfast-four.html">Breakfast</a></li>
 			        		<li><a href="lunch-four.html">Lunch</a></li>
@@ -69,6 +71,37 @@
 
 
 
+	<div class="container">
+		<h1>Gallery</h1>
+		<div class="gallery">
+			<div class="row">
+				<div class="col-lg-3">
+					<a href="img/ice-cream1.jpg" data-title="caption-one" data-lightbox="ice cream">
+						<img src="img/ice-cream1.jpg" width="200px" class="img-circle">
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="img/ice-cream2.jpg" data-title="caption-two" data-lightbox="ice cream">
+						<img src="img/ice-cream2.jpg" width="200px" class="img-circle">
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="img/ice-cream3.jpg" data-title="caption-three" data-lightbox="ice cream">
+						<img src="img/ice-cream3.jpg" width="200px" class="img-circle">
+					</a>
+				</div>
+				<div class="col-lg-3">
+					<a href="img/ice-cream4.jpg" data-title="caption-four" data-lightbox="ice cream">
+						<img src="img/ice-cream4.jpg" width="200px" class="img-circle">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
 	<div class="modal fade" id="contact" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -76,7 +109,8 @@
 					<h4>Contact Me</h4>
 				</div>
 				<div class="modal-body">
-					<a href="#">Follow Me</a>
+					www.simplycooking.com<br>
+					info@simplycooking.com
 				</div>
 				<div class="modal-footer">
 				<a class="btn btn-info" data-dismiss="modal">Close</a>
@@ -87,48 +121,7 @@
 
 
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-9">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<div class="page-header">
-							<h3>Hello World!</h3>
-						</div>
-						<img class="featureImg" src="img/ice-cream4.JPG" width="100%">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit. In dictum, diam ut placerat aliquam, risus ligula sodales est, at iaculis velit eros vitae nisl. Vestibulum ut facilisis neque. Sed cursus purus feugiat tempor fringilla. Nunc ut sodales risus. Proin pulvinar elementum enim, vitae aliquet leo egestas ac. Vivamus id blandit augue. Fusce sed elit rhoncus, molestie lectus sed, condimentum tortor. Mauris tempus ante et eros pellentesque, et pretium risus commodo. Fusce viverra velit ante, nec vestibulum massa euismod ac. Nulla facilisi. Cras dictum ultricies volutpat. Mauris imperdiet lorem a elit fermentum vestibulum. Mauris convallis eu erat et euismod.</p>
-						<h4>A Heading</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit. In dictum, diam ut placerat aliquam, risus ligula sodales est, at iaculis velit eros vitae nisl. Vestibulum ut facilisis neque. Sed cursus purus feugiat tempor fringilla. Nunc ut sodales risus. Proin pulvinar elementum enim, vitae aliquet leo egestas ac. Vivamus id blandit augue. Fusce sed elit rhoncus, molestie lectus sed, condimentum tortor. Mauris tempus ante et eros pellentesque, et pretium risus commodo. Fusce viverra velit ante, nec vestibulum massa euismod ac. Nulla facilisi. Cras dictum ultricies volutpat. Mauris imperdiet lorem a elit fermentum vestibulum. Mauris convallis eu erat et euismod.</p>
-					</div>
-				</div>
-			</div>
-
-
-
-
-			<div class="col-lg-3">
-				<div class="list-group">
-					<a href="#" class="list-group-item">
-						<h4 class="list-group-item-heading">Breakfast</h4>
-						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit.</p>
-					</a>
-					<a href="#" class="list-group-item">
-						<h4 class="list-group-item-heading">Lunch</h4>
-						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit.</p>
-					</a>
-					<a href="#" class="list-group-item">
-						<h4 class="list-group-item-heading">Dinner</h4>
-						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis purus vitae mi ornare mollis. Mauris id sem pretium, suscipit nisi eget, rutrum elit.</p>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>	
-
-
-
-
+	
 	<div class="navbar navbar-default navbar-fixed-bottom">
 		<div class="container">
 			<p class="navbar-text pull-left">Site Built by Pronnoy Nandy</p>
@@ -140,6 +133,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/myScript.js"></script>
+	<script src="js/lightbox.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
